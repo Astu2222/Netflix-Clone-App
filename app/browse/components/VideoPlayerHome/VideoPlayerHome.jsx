@@ -19,7 +19,7 @@ export default function VideoPlayerHome() {
                 button.click(); // Simular un clic en el elemento
             }
             startVideo();
-        }, 6000);
+        }, 3000);
         // Limpieza del temporizador al desmontar el componente
         return () => clearTimeout(timeoutId);
     }, []); // Dependencias vacías para que esto se ejecute solo una vez
