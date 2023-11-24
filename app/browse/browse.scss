@@ -1,0 +1,65 @@
+.perfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background: rgb(25,25,25);
+    background: linear-gradient(90deg, rgba(25,25,25,1) 0%, rgba(0,0,0,1) 100%);
+    gap: 30px;
+    h1{
+        font-size: 50px;
+    }
+    .perfiles{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+        .usuario{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .usuario:hover{
+            transform: scale(1.05);
+            img{
+                border-radius: 10px;
+                border: 3px solid white; /* Esto establece un borde blanco con un ancho de 30px */
+            }
+        }
+    }
+
+    main{
+        .video-container {
+            position: relative;
+            width: 100%; /* Ajusta el ancho según tus necesidades */
+            height: 100vh; /* Ajusta la altura según tus necesidades (100vh es el 100% de la altura de la ventana) */
+            overflow: hidden;
+            
+          }
+          
+          .video-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ajusta la escala del video para cubrir todo el div */
+          }
+          
+          .prev{
+            background-color: black;
+          }
+    }
+
+
+
+
+
+
+
+}

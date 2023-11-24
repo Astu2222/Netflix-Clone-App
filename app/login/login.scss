@@ -1,0 +1,197 @@
+.login{
+    min-height: 100vh;
+    background-image: url("/background/login/1.jpg");
+    background-size: 100%;
+    
+    
+    .darkShadow{
+        min-height: 100vh;
+        background-color: #000000af;
+        background-size: 100%;
+
+
+        .navbar{
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            width: 100vw;
+            height: 100%;
+            
+            a{
+                margin-left: 30px;
+                margin-top: 10px;
+            }
+        }
+
+        .contenido{
+            min-height: 75vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+
+            .card{
+                
+                min-height: 60vh;
+                width: 500px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 25px;
+                background-color: rgba(0, 0, 0, 0.808);
+                
+                h1{
+                    font-size: 33px;
+                    font-weight: bold;
+                }
+
+                .colorEmail{
+
+                    width: 80%;
+
+                    .input{
+                        width: 100%;
+                    }
+
+                }
+
+                .colorContraseña{
+
+                    width: 80%;
+
+                    .input{
+                        width: 100%;
+                    }
+
+                }
+
+                .botonRojo{
+                    width: 80%;
+                    padding: 30px 0px 30px 0px;
+                    background-color: rgb(212, 15, 15);
+                    transition: transform 0.2s; /* Agregar transición para que el efecto sea suave */
+
+                }
+
+                .botonRojo:hover{
+                    width: 80%;
+                    background-color: rgb(116, 9, 9);
+                    transform: scale(1.05); /* Escala el botón al 110% del tamaño original */
+
+                }
+
+                .opciones{
+                    
+                    .row1{
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                    }
+
+                    .row2{
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 20px 20px 0px 20px;
+                    }
+
+                    .row3{
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding-right: 30px;
+                        padding: 20px 20px 0px 20px;
+                        text-align: center;
+                    }
+                }
+                
+            }
+        }
+
+        footer{
+            position: absolute;
+            bottom: 0;
+            height: 150px;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.596);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .preguntas{
+                
+            }
+
+            .contenidoFooter{
+                display: flex;
+                gap: 60px;
+                height: 80px;
+                margin-bottom: 20px;
+                padding: 25px;
+                .col1{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                }
+
+                .col2{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                }
+
+                .col3{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                }
+
+                .col4{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                }
+
+            }
+
+
+        }
+
+
+
+
+
+
+
+    }
+
+}
+
+
+
+
+@media (min-width: 700px) {
+
+    .card{
+                
+        
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        h1{
+            font-size: 30px;
+        }
+     
+
+    }
+
+}
+
+
+
